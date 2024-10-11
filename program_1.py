@@ -16,14 +16,14 @@ def randDice():
     sum = num_1 + num_2
     # return sum to calling function
     return sum
-#########
-# Then write a mainline that calls the "randDice" function 100 times in a for loop.
+    #########
+    # Then write a mainline that calls the "randDice" function 100 times in a for loop.
 def main():
     total_sum = 0
     for i in range(1,101):
         total_sum = total_sum + randDice()
     average = total_sum / 100
     print('Average of 100 rolls:', float(f"{average :.2f}"))
-# The mainline then prints the average of the 100 rolls, rounded to the nearest 0.01.
+    # The mainline then prints the average of the 100 rolls, rounded to the nearest 0.01.
 
 main()
